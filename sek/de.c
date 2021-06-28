@@ -56,12 +56,12 @@ double dexpf4(double a,double b,int n) {
 
 int main(void) {
   double  a,b;
-  int     n=8;
+  int     n=1;
   a = 0.0;  b = 2.0;
   // a = -1.0; b = 1.0;
   // a = 0.0;  b = 1.0;
 
-  for (int i = 4; i <= 8; i++) {
+  for (int i = 1; i <= 6; i++) {
     n *= 2;
     printf("[%5d] %lf \n",n,dexp(a,b,n));
     // printf("[%5d] %lf \n",n,dexpf4(a,b,n));
