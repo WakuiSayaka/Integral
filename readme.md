@@ -1,3 +1,8 @@
-* リスト1
-* リストリスト1-2
-* リスト2
+* trapezoidal
+* midpoint
+* simpson
+* tanh
+* dexp
+  *aa
+  *aa
+  *aa
