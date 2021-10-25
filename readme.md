@@ -1,6 +1,4 @@
-
-
-<img src="https://latex.codecogs.com/gif.latex?\displaystyle&space;\int_a^b&space;f(x)dx" />
+数値積分のメモ
 
 * trapezoidal
 <img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}f(x)dx\approx&space;T_{n}" />
