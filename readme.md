@@ -25,6 +25,8 @@
 * dexp-finite
 <img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}f(x)dx\approx&space;DE_{n}" />
 <img src="https://latex.codecogs.com/gif.latex?DE_{n}=h\sum_{i=-n}^{n}f(\varphi(ih))\varphi'(ih)" />
+<img src="https://latex.codecogs.com/gif.latex?\varphi(t)&space;=&space;\frac{b-a}{2}\tanh\left(\frac{\pi}{2}\sinh&space;t&space;\right&space;)&space;&plus;&space;\frac{a&plus;b}{2}" />
+<img src="https://latex.codecogs.com/gif.latex?\varphi'(t)&space;=&space;\frac{b-a}{4}\frac{\pi&space;\cosh&space;t}{\cosh^{2}(\frac{\pi}{2}\sinh&space;t)}" />
 
 * dexp-semi_infinite
 
