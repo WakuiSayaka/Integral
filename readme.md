@@ -1,4 +1,4 @@
-数値積分のメモ
+数値積分の練習
 
 * trapezoidal
 <img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}f(x)dx\approx&space;T_{n}" />
