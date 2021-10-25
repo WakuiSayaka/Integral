@@ -8,15 +8,15 @@ double func(double x){
 //double exponential formula [a,b]
 double dexp(double a,double b,int n){
 	double h,sum = 0;
-	double ba_sub,ba_sum,pi_sinh;
+	double ba_sub,ba_add,pi_sinh;
 
 	ba_sub = (b - a) * 0.5;
-	ba_sum = (b + a) * 0.5;
+	ba_add = (b + a) * 0.5;
 
 	h = log(3.0 * n) / n;
 	for(int i = -n;i <= n; i++){
 		pi_sinh = 0.5 * M_PI * sinh(i * h);
-		sum += func(ba_sub * tanh(pi_sinh) + ba_sum) * cosh(i * h) / (cosh(pi_sinh) * cosh(pi_sinh));
+		sum += func(ba_sub * tanh(pi_sinh) + ba_add) * cosh(i * h) / (cosh(pi_sinh) * cosh(pi_sinh));
 	}
 	sum *= 0.5 * M_PI * h * ba_sub;
 	return sum;
