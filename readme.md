@@ -19,13 +19,13 @@
 
 * tanh
 <img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}f(x)dx\approx&space;E_{n}" />
-<img src="https://latex.codecogs.com/gif.latex?E_{n}=h\sum_{-n}^{n}f(\tanh&space;ih)\frac{1}{\cosh^{2}ih}" />
+<img src="https://latex.codecogs.com/gif.latex?E_{n}=h\sum_{i=-n}^{n}f(\tanh&space;ih)\frac{1}{\cosh^{2}ih}" />
 <img src="https://latex.codecogs.com/gif.latex?h=\sqrt{\frac{6n\pi}{n}}" />
 
 * dexp-finite
+<img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}f(x)dx\approx&space;DE_{n}" />
+<img src="https://latex.codecogs.com/gif.latex?DE_{n}=h\sum_{i=-n}^{n}f(\varphi(ih))\varphi'(ih)" />
 
 * dexp-semi_infinite
 
 * dexp-infinite
-
-E_{n}=h\sum_{-n}^{n}f(\tanh ih)\frac{1}{\cosh^{2}ih}
