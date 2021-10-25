@@ -29,5 +29,9 @@
 <img src="https://latex.codecogs.com/gif.latex?\varphi'(t)&space;=&space;\frac{b-a}{4}\frac{\pi&space;\cosh&space;t}{\cosh^{2}(\frac{\pi}{2}\sinh&space;t)}" />
 
 * dexp-semi_infinite
+<img src="https://latex.codecogs.com/gif.latex?\int_{a}^{\infty}f(x)dx&space;\approx&space;DE_n" />
+<img src="https://latex.codecogs.com/gif.latex?DE_{n}=h\sum_{i=-n}^{n}f(\varphi(ih))\varphi'(ih)" />
+<img src="https://latex.codecogs.com/gif.latex?\varphi(t)&space;=&space;a&space;&plus;&space;\exp(\frac{\pi}{2}\sinh&space;t)" />
+<img src="https://latex.codecogs.com/gif.latex?\varphi'(t)&space;=&space;\cosh(t)\exp(\frac{\pi}{2}\sinh&space;t)" />
 
 * dexp-infinite
