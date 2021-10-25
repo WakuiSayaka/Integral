@@ -11,7 +11,7 @@
 * simpson
 <img src="https://latex.codecogs.com/gif.latex?S_n=\frac{h}{3}\left(\frac{1}{2}f(a)&plus;\sum_{i=1}^{n-1}f(a&plus;hi)&plus;\frac{1}{2}f(b)&plus;2\sum_{i=1}^{n-1}f(a&plus;h(i-1/2))\right)" />
 
-<img src=https://latex.codecogs.com/gif.latex?h=\frac{b-a}{N}" />
+<img src="https://latex.codecogs.com/gif.latex?h=\frac{b-a}{N}" />
 
 * tanh
 
